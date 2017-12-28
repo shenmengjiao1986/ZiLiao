@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213D18401FF47AB40078CDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D183F1FF47AB40078CDDF /* main.m */; };
+		213D18431FF47AB40078CDDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D18421FF47AB40078CDDF /* AppDelegate.m */; };
+		213D18461FF47AB40078CDDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D18451FF47AB40078CDDF /* ViewController.m */; };
+		213D18491FF47AB40078CDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213D18471FF47AB40078CDDF /* Main.storyboard */; };
+		213D184B1FF47AB40078CDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213D184A1FF47AB40078CDDF /* Assets.xcassets */; };
+		213D184E1FF47AB40078CDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213D184C1FF47AB40078CDDF /* LaunchScreen.storyboard */; };
+		3815C3696CB30ACB9ADAAC73 /* libPods-ZiLiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B23658A8589D153C8D8DE8 /* libPods-ZiLiao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		213D183B1FF47AB30078CDDF /* ZiLiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiLiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213D183F1FF47AB40078CDDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		213D18411FF47AB40078CDDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		213D18421FF47AB40078CDDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		213D18441FF47AB40078CDDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		213D18451FF47AB40078CDDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		213D18481FF47AB40078CDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		213D184A1FF47AB40078CDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		213D184D1FF47AB40078CDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		213D184F1FF47AB40078CDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		232ED232236CB55DE9FFB882 /* Pods-ZiLiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiLiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZiLiao/Pods-ZiLiao.debug.xcconfig"; sourceTree = "<group>"; };
+		5D513E2BE98D0B634B0B7E75 /* Pods-ZiLiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiLiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZiLiao/Pods-ZiLiao.release.xcconfig"; sourceTree = "<group>"; };
+		A6B23658A8589D153C8D8DE8 /* libPods-ZiLiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZiLiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		213D18381FF47AB30078CDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3815C3696CB30ACB9ADAAC73 /* libPods-ZiLiao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213D18321FF47AB30078CDDF = {
+			isa = PBXGroup;
+			children = (
+				213D183D1FF47AB30078CDDF /* ZiLiao */,
+				213D183C1FF47AB30078CDDF /* Products */,
+				5B0E096BC5398F59BA1B9E22 /* Pods */,
+				46850875DE3E6DD6AFE4EB4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		213D183C1FF47AB30078CDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213D183B1FF47AB30078CDDF /* ZiLiao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213D183D1FF47AB30078CDDF /* ZiLiao */ = {
+			isa = PBXGroup;
+			children = (
+				213D18411FF47AB40078CDDF /* AppDelegate.h */,
+				213D18421FF47AB40078CDDF /* AppDelegate.m */,
+				213D18441FF47AB40078CDDF /* ViewController.h */,
+				213D18451FF47AB40078CDDF /* ViewController.m */,
+				213D18471FF47AB40078CDDF /* Main.storyboard */,
+				213D184A1FF47AB40078CDDF /* Assets.xcassets */,
+				213D184C1FF47AB40078CDDF /* LaunchScreen.storyboard */,
+				213D184F1FF47AB40078CDDF /* Info.plist */,
+				213D183E1FF47AB30078CDDF /* Supporting Files */,
+			);
+			path = ZiLiao;
+			sourceTree = "<group>";
+		};
+		213D183E1FF47AB30078CDDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				213D183F1FF47AB40078CDDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46850875DE3E6DD6AFE4EB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B23658A8589D153C8D8DE8 /* libPods-ZiLiao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B0E096BC5398F59BA1B9E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				232ED232236CB55DE9FFB882 /* Pods-ZiLiao.debug.xcconfig */,
+				5D513E2BE98D0B634B0B7E75 /* Pods-ZiLiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		213D183A1FF47AB30078CDDF /* ZiLiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213D18521FF47AB40078CDDF /* Build configuration list for PBXNativeTarget "ZiLiao" */;
+			buildPhases = (
+				562E46AC5E7E54E3F7C5D4F4 /* [CP] Check Pods Manifest.lock */,
+				213D18371FF47AB30078CDDF /* Sources */,
+				213D18381FF47AB30078CDDF /* Frameworks */,
+				213D18391FF47AB30078CDDF /* Resources */,
+				20752BA508900CB323523622 /* [CP] Embed Pods Frameworks */,
+				79C53BE92D495C7ED26D06F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZiLiao;
+			productName = ZiLiao;
+			productReference = 213D183B1FF47AB30078CDDF /* ZiLiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		213D18331FF47AB30078CDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = joyceshen;
+				TargetAttributes = {
+					213D183A1FF47AB30078CDDF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B489NVYE6Z;
+					};
+				};
+			};
+			buildConfigurationList = 213D18361FF47AB30078CDDF /* Build configuration list for PBXProject "ZiLiao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 213D18321FF47AB30078CDDF;
+			productRefGroup = 213D183C1FF47AB30078CDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213D183A1FF47AB30078CDDF /* ZiLiao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		213D18391FF47AB30078CDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213D184E1FF47AB40078CDDF /* LaunchScreen.storyboard in Resources */,
+				213D184B1FF47AB40078CDDF /* Assets.xcassets in Resources */,
+				213D18491FF47AB40078CDDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20752BA508900CB323523622 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiLiao/Pods-ZiLiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562E46AC5E7E54E3F7C5D4F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZiLiao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C53BE92D495C7ED26D06F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiLiao/Pods-ZiLiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213D18371FF47AB30078CDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213D18461FF47AB40078CDDF /* ViewController.m in Sources */,
+				213D18431FF47AB40078CDDF /* AppDelegate.m in Sources */,
+				213D18401FF47AB40078CDDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		213D18471FF47AB40078CDDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213D18481FF47AB40078CDDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		213D184C1FF47AB40078CDDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213D184D1FF47AB40078CDDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		213D18501FF47AB40078CDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		213D18511FF47AB40078CDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		213D18531FF47AB40078CDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232ED232236CB55DE9FFB882 /* Pods-ZiLiao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZiLiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NV.ZiLiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		213D18541FF47AB40078CDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D513E2BE98D0B634B0B7E75 /* Pods-ZiLiao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZiLiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NV.ZiLiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213D18361FF47AB30078CDDF /* Build configuration list for PBXProject "ZiLiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213D18501FF47AB40078CDDF /* Debug */,
+				213D18511FF47AB40078CDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213D18521FF47AB40078CDDF /* Build configuration list for PBXNativeTarget "ZiLiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213D18531FF47AB40078CDDF /* Debug */,
+				213D18541FF47AB40078CDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 213D18331FF47AB30078CDDF /* Project object */;
+}
